@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licorería Premium - Los Mejores Licores y Vinos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>🍷 Licorería Premium</h2>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#whisky">Whisky</a></li>
+                    <li><a href="#vodka">Vodka</a></li>
+                    <li><a href="#ron">Ron</a></li>
+                    <li><a href="#vinos">Vinos</a></li>
+                    <li><a href="#cervezas">Cervezas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenidos a Licorería Premium</h1>
+            <p>Descubre nuestra exclusiva selección de licores, vinos y cervezas premium de las mejores marcas del mundo</p>
+            <button class="cta-button" onclick="scrollToSection('whisky')">Explorar Productos</button>
+        </div>
+        <div class="hero-image">
+            <img src="img/img1.jpg" alt="Colección Premium de Licores">
+        </div>
+    </section>
+
+    <!-- Advertencia Legal Principal -->
+    <div class="legal-warning">
+        <p>⚠️ PROHIBIDA LA VENTA DE BEBIDAS EMBRIAGANTES A MENORES DE EDAD • EL EXCESO DE ALCOHOL ES PERJUDICIAL PARA LA SALUD</p>
+    </div>
+
+    <!-- Whisky Section -->
+    <section id="whisky" class="product-section">
+        <div class="container">
+            <h2 class="section-title">Whiskies Premium</h2>
+            <p class="section-subtitle">Descubre nuestra selecta colección de whiskies escoceses, irlandeses y americanos</p>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="img/wh1.jpg" alt="Whisky Escocés Premium">
+                    <div class="product-info">
+                        <h3>Old Smuggler</h3>
+                        <p>Whisky escocés single malt envejecido 18 años</p>
+                        <span class="price">$450</span>
+                        <button class="product-btn">Ver Detalles</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/wh2.jpg" alt="Whisky Irlandés">
+                    <div class="product-info">
+                        <h3>Opthimus</h3>
+                        <p>Whisky irlandés con notas de vainilla y especias</p>
+                        <span class="price">$180</span>
+                        <button class="product-btn">Ver Detalles</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/wh3.webp" alt="Bourbon Americano">
+                    <div class="product-info">
+                        <h3>Green Label</h3>
+                        <p>Bourbon americano de barril único</p>
+                        <span class="price">$220</span>
+                        <button class="product-btn">Ver Detalles</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Vodka Section -->
+    <section id="vodka" class="product-section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Vodkas Premium</h2>
+            <p class="section-subtitle">La pureza y elegancia de los mejores vodkas del mundo</p>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="img/vod1.jpg" alt="Vodka Premium Ruso">
+                    <div class="product-info">
+                        <h3>Dominicano</h3>
+                        <p>Ron Miel</p>
+                        <span class="price">$320</span>
+                        <button class="product-btn">Ver Detalles</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/vod2.jpg" alt="Vodka Francés">
+                    <div class="product-info">
+                        <h3>STOLICHNAYA</h3>
+                        <p>Vodka francés destilado con trigo de invierno</p>
+                        <span class="price">$150.000</span>
+                        <button class="product-btn">Ver Detalles</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/vod3.jpg" alt="Vodka Polaco">
+                    <div class="product-info">
+                        <h3>absolut vodka</h3>
+                        <p>Vodka polaco destilado de papa</p>
+                        <span class="price">$180.000</span>
+                        <button class="product-btn">Ver Detalles</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ron Section -->
+    <section id="ron" class="product-section">
+        <div class="container">
+            <h2 class="section-title">Rones Excepcionales</h2>
+            <p class="section-subtitle">Desde el Caribe hasta Centroamérica, los mejores rones añejos</p>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="img/img10.png" alt="Ron Cubano">
+                    <div class="product-info">
+                        <h3>Barceló</h3>
+                        <p>Ron dominicano</p>
+                        <span class="price">$280</span>
+                        <button class="product-btn">Ver Detalles</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/img11.jpg" alt="Ron Dominicano">
+                    <div class="product-info">
+                        <h3>Brugal</h3>
+                        <p>Ron dominicano doblemente añejado</p>
+                        <span class="price">$200</span>
+                        <button class="product-btn">Ver Detalles</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/img12.jpg" alt="Ron Venezolano">
+                    <div class="product-info">
+                        <h3>Barceló Blanco</h3>
+                        <p>Ron</p>
+                        <span class="price">$160</span>
+                        <button class="product-btn">Ver Detalles</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Vinos Section -->
+    <section id="vinos" class="product-section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Vinos Selectos</h2>
+            <p class="section-subtitle">Una cuidadosa selección de vinos tintos, blancos y espumosos</p>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="img/img7.jpg" alt="Vino Tinto Francés">
+                    <div class="product-info">
+                        <h3>Château Margaux 2015</h3>
+                        <p>Vino tinto francés Bordeaux Premier Grand Cru</p>
+                        <span class="price">$1.200.000</span>
+                        <button class="product-btn">Ver Detalles</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/img8.jpg" alt="Vino Blanco Alemán">
+                    <div class="product-info">
+                        <h3>Riesling Spätlese</h3>
+                        <p>Vino blanco alemán dulce del valle del Mosel</p>
+                        <span class="price">$120.000</span>
+                        <button class="product-btn">Ver Detalles</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/ron1.jpg" alt="Champagne Francés">
+                    <div class="product-info">
+                        <h3>Dom Pérignon 2012</h3>
+                        <p>Champagne francés vintage de la casa Dom Pérignon</p>
+                        <span class="price">$800</span>
+                        <button class="product-btn">Ver Detalles</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Cervezas Section -->
+    <section id="cervezas" class="product-section">
+        <div class="container">
+            <h2 class="section-title">Cervezas Artesanales</h2>
+            <p class="section-subtitle">Cervezas premium y artesanales de todo el mundo</p>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="img/img1.png" alt="Cerveza Belga">
+                    <div class="product-info">
+                        <h3>Corona Extra</h3>
+                        <p>Cerveza corona</p>
+                        <span class="price">$25</span>
+                        <button class="product-btn">Ver Detalles</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/img5.jpg" alt="Cerveza Alemana">
+                    <div class="product-info">
+                        <h3>Estrella</h3>
+                        <p>Cerveza española</p>
+                        <span class="price">$18.000</span>
+                        <button class="product-btn">Ver Detalles</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/img2.png" alt="Cerveza Artesanal">
+                    <div class="product-info">
+                        <h3>Amsted</h3>
+                        <p>Cerveza artesanal</p>
+                        <span class="price">$12</span>
+                        <button class="product-btn">Ver Detalles</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advertencias Legales -->
+    <section class="legal-section">
+        <div class="container">
+            <h2>Información Legal y Consumo Responsable</h2>
+            <div class="legal-grid">
+                <div class="legal-card">
+                    <h3>🚫 Restricciones de Edad</h3>
+                    <p>Prohibida la venta de bebidas embriagantes a menores de 18 años. Se requiere identificación válida para todas las compras.</p>
+                </div>
+                <div class="legal-card">
+                    <h3>⚠️ Consumo Responsable</h3>
+                    <p>El exceso de alcohol es perjudicial para la salud. Consuma con moderación y responsabilidad.</p>
+                </div>
+                <div class="legal-card">
+                    <h3>🕐 Horarios de Venta</h3>
+                    <p>Venta de licores permitida de lunes a sábado de 10:00 AM a 10:00 PM. Domingos hasta las 6:00 PM.</p>
+                </div>
+                <div class="legal-card">
+                    <h3>🚗 No Conduzca</h3>
+                    <p>Si consume alcohol, no conduzca. Use transporte público o servicios de taxi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🍷 Licorería Premium</h3>
+                    <p>Tu destino para los mejores licores, vinos y cervezas premium desde 1995.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📍 Calle Falsa 123, Ciudad Falsa</p>
+                    <p>📞 +12 3 456 789</p>
+                    <p>✉️ info@default.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Horarios</h4>
+                    <p>Lunes - Sábado: 10:00 AM - 10:00 PM</p>
+                    <p>Domingos: 12:00 PM - 6:00 PM</p>
+                    <p>Festivos: 12:00 PM - 8:00 PM</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Licorería Premium. Todos los derechos reservados.</p>
+                <p class="legal-text">PROHIBIDA LA VENTA DE BEBIDAS EMBRIAGANTES A MENORES DE EDAD • EL EXCESO DE ALCOHOL ES PERJUDICIAL PARA LA SALUD</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
