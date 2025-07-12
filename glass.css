@@ -1,0 +1,62 @@
+
+
+.glass-container {
+        width: 200px;
+        height: 250px;
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .glass {
+        width: 150px;
+        height: 200px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-radius: 10px 10px 30px 30px;
+        position: relative;
+        overflow: hidden; /* Para que el líquido no se salga del vaso */
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .liquid {
+        width: 100%;
+        height: 0; /* Empezará en 0 y se animará */
+        background: linear-gradient(to top, #c77e00, #ffb300); /* Color de whisky */
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 0 0 28px 28px; /* Bordes redondeados inferiores */
+        filter: brightness(0.8); /* Para que no sea tan brillante al inicio */
+    }
+
+    .ice-cube {
+        width: 40px;
+        height: 40px;
+        background: rgba(255, 255, 255, 0.3);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        position: absolute;
+        transform: rotate(45deg); /* Para que parezcan cubos de hielo */
+        border-radius: 5px;
+        box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.2);
+    }
+
+    .ice-cube-1 {
+        top: 60px;
+        left: 20px;
+        transform: rotate(30deg);
+    }
+
+    .ice-cube-2 {
+        top: 85px;
+        right: 15px;
+        transform: rotate(60deg);
+    }
+
+    .ice-cube-3 {
+        top: 120px;
+        left: 50px;
+        transform: rotate(45deg);
+    }
